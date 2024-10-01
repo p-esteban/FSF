@@ -1,0 +1,305 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #6a0dad;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between; /* Espacia logo y nav a los extremos */
+    align-items: center; /* Alinea verticalmente */
+}
+
+/* Aseguramos que todo esté alineado en la misma fila */
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ede9f0;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 20px;
+    color: #ede9f0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #6a0dad;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 8px 15px;
+}
+
+.nav-link:hover {
+    color: #5a0a9e;
+}
+
+/* Estilo para el dropdown del selector de idioma */
+.language-switcher {
+    position: relative;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 60px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 8px;
+    text-align: center;
+}
+
+.dropdown-content a img {
+    width: 30px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; /* Mostrar la lista desplegable al hacer hover */
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+
+/* Sección de Objetivo */
+#objetivo {
+    padding: 60px 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.objetivo-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.objetivo-texto {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+/* Sección de Novedades */
+#novedades {
+    padding: 50px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.seccion-titulo {
+    font-size: 32px;
+    font-weight: bold;
+    color: #6a0dad;
+    margin-bottom: 40px;
+}
+
+.novedades-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.novedad {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    padding: 20px;
+    text-align: left;
+}
+
+.novedad img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.novedad h3 {
+    font-size: 24px;
+    color: #6a0dad;
+    margin: 15px 0 10px;
+}
+
+.novedad p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.btn-leer-mas {
+    display: inline-block;
+    background-color: #6a0dad;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.btn-leer-mas:hover {
+    background-color: #5a0a9e;
+}
+
+/*footer*/
+
+footer {
+    background-color: #6a0dad;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.redes-sociales {
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    color: white;
+    margin: 0 10px;
+}
+
+/* Responsivo para móviles */
+@media (max-width: 768px) {
+    .novedades-container {
+        gap: 20px;
+    }
+
+    .novedad {
+        max-width: 90%;
+    }
+}
+
+
+
+/* Asegurar que todo sea responsive */
+/* @media (max-width: 768px) {
+    .nav-list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-item {
+        margin: 10px 0;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+/*
+select {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar contenido */
+/*}
+
+article {
+    margin-bottom: 20px;
+    text-align: center; /* Centrar texto en novedades */
+/*}
+
+.novedad-imagen {
+    max-width: 100%;
+    height: auto;
+}
+
+.boton {
+    background-color: #6a0dad;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.boton:hover {
+    background-color: #5a0a9e;
+}
+
+footer {
+    background-color: #6a0dad;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.redes-sociales {
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    color: white;
+    margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+    .nav-list {
+        flex-direction: column;
+    }
+
+    .nav-item {
+        margin: 5px 0;
+    }
+
+    select {
+        width: 100%;
+    }
+} */
+
+
+
+
