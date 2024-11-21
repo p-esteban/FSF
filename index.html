@@ -23,10 +23,17 @@
             </button>
             <ul class="nav-menu">
                 <li><a href="#">Inicio</a></li>
-                <li><a href="acerca-de-nostras.html">Acerca de nosotras</a></li>
-                <li><a href="que-hacemos.html">Qué hacemos</a></li>
-                <li><a href="actividades.html">Actividades</a></li>
-                <li><a href="publicaciones.html">Publicaciones</a></li>
+                <li>
+                    <a href="#">Acerca de nosotras</a>
+                    <div class="dropdown-content">
+                        <a href="./secciones/acerca-de-nosotras/acerca-de-nostras.html">Quiénes somos</a>
+                        <a href="./secciones/acerca-de-nosotras/nuestro-equipo/nuestro-equipo.html">Nuestro equipo</a>
+
+                    </div>
+                </li>
+                <li><a href="secciones\que-hacemos\que-hacemos.html">Qué hacemos</a></li>
+                <li><a href="./secciones/novedades/actividades.html">Novedades</a></li>
+                <li><a href="secciones\publicaciones\publicaciones.html">Publicaciones</a></li>
                 <li><a href="#">Contacto</a></li>
                 <li><a href="#">Donaciones</a></li>
             </ul>
@@ -35,11 +42,10 @@
 
 
     <section class="hero">
-        <div class="hero-content">
-  <!--           <h1>Bienvenidas a Nuestra ONG</h1>
-            <p>Empoderando a mujeres de todo el mundo.</p>
-            <a href="#" class="cta-button">Conoce Más</a> -->
-        </div>
+        <img src="img/logo_violeta.svg" alt="">
+   <!--      <div class="hero-content">
+  
+        </div> -->
     </section>
 
    <!--  <section class="introduction">
@@ -93,8 +99,8 @@
         <h2 class="seccion-titulo">Publicaciones</h2>
         <br>
         <div id="novedadesCarousel2" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
+            <div class="carousel-inner inicio">
+                <div class="carousel-item inicio-item active">
                     <div class="novedades-container">
                         <div class="novedad">
                             <img src="publicacion1.jpg" alt="Novedad 1" class="novedad-imagen">
@@ -103,7 +109,7 @@
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam beatae vero deserunt
                                     soluta laborum distinctio voluptates fugit doloremque at? Alias quis, explicabo
                                     accusantium similique quasi velit beatae maxime modi veritatis?</p>
-                                <a class="btn-leer-mas" href="publicacion-1.html">Leer más</a>
+                                <a class="btn-leer-mas" href="./secciones/publicaciones/publicacion-1.html">Leer más</a>
                             </div>
                         </div>
                         <div class="novedad">
@@ -113,7 +119,7 @@
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque tempora exercitationem
                                     dignissimos est quis eum, quo quasi. Aperiam error cumque esse repudiandae? Laborum
                                     vitae nihil voluptate sunt, ea delectus dolorem.</p>
-                                <a class="btn-leer-mas" href="publicacion-1.html">Leer más</a>
+                                <a class="btn-leer-mas" href="./secciones/publicaciones/publicacion-1.html">Leer más</a>
                             </div>
                         </div>
                         <div class="novedad">
@@ -123,12 +129,12 @@
                                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quod ipsa cumque hic
                                     quasi, recusandae libero esse quo corrupti sit laboriosam veritatis dolorem. Vitae
                                     illum exercitationem ducimus blanditiis animi doloribus.</p>
-                                <a class="btn-leer-mas" href="publicacion-1.html">Leer más</a>
+                                <a class="btn-leer-mas" href="./secciones/publicaciones/publicacion-1.html">Leer más</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item inicio-item">
                     <div class="novedades-container">
                         <div class="novedad">
                             <img src="publicacion1.jpg" alt="Novedad 4" class="novedad-imagen">
@@ -137,7 +143,7 @@
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae ex possimus
                                     quidem, blanditiis deleniti accusamus sed non id, illo dolorum. Saepe, mollitia
                                     expedita sapiente veritatis fugiat animi quam aperiam..</p>
-                                <a class="btn-leer-mas" href="publicacion-1.html">Leer más</a>
+                                <a class="btn-leer-mas" href="./secciones/publicaciones/publicacion-1.html">Leer más</a>
                             </div>
                         </div>
                         <div class="novedad">
@@ -147,7 +153,7 @@
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure non quidem
                                     consequuntur sit quia aperiam molestiae. Iure dolores non quaerat illum aperiam,
                                     veniam perspiciatis esse amet nisi tenetur ea natus?</p>
-                                <a class="btn-leer-mas" href="publicacion-1.html">Leer más</a>
+                                <a class="btn-leer-mas" href="./secciones/publicaciones/publicacion-1.html">Leer más</a>
                             </div>
                         </div>
                         <div class="novedad">
@@ -157,7 +163,7 @@
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, numquam! Ratione,
                                     obcaecati nisi temporibus laboriosam modi aliquid quas voluptatem aperiam iste
                                     assumenda quibusdam molestiae velit ad enim minus, pariatur sed.</p>
-                                <a class="btn-leer-mas" href="publicacion-1.html">Leer más</a>
+                                <a class="btn-leer-mas" href="./secciones/publicaciones/publicacion-1.html">Leer más</a>
                             </div>
                         </div>
                     </div>
@@ -181,6 +187,7 @@
         <div class="cta-content">
             <h2>Apoye nuestro trabajo</h2>
             <p>Trabajemos juntos por un futuro mejor.</p>
+            <br>
             <a href="#" class="cta-button">Dona hoy</a>
         </div>
     </section>
@@ -193,36 +200,37 @@
         <h2 class="seccion-titulo">Novedades</h2>
         <br>
         <div id="novedadesCarousel" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
+            <div class="carousel-inner inicio">
+                <div class="carousel-item inicio-item active">
                     <div class="novedades-container">
                         <div class="novedad">
-                            <img src="imagen3.jpg" alt="Novedad 1" class="novedad-imagen">
+                            <img src="./img/ACTIVIDADES/ACT 1/imagen2.jpg" alt="Novedad 1" class="novedad-imagen">
                             <div class="novedad-texto">
-                                <h3>Novedad 1</h3>
-                                <p>Descripción breve de la novedad 1.</p>
-                                <a class="btn-leer-mas" href="actividad-1.html">Leer más</a>
+                                <h3>En julio de 2024, Mariana Rulli (vicepresidenta de Feministas sin Fronteras) participó de la
+                                    Conferencia Internacional de Economía Feminista de la IAFFE en Roma.</h3>
+                                <!-- <p>Descripción breve de la novedad 1.</p> -->
+                                <a class="btn-leer-mas" href="secciones\novedades\actividad-1.html">Leer más</a>
                             </div>
                         </div>
                         <div class="novedad">
-                            <img src="imagen4.jpg" alt="Novedad 2" class="novedad-imagen">
+                            <img src="./img/ACTIVIDADES/ACT 2/Imagen2.jpg" alt="Novedad 2" class="novedad-imagen">
                             <div class="novedad-texto">
-                                <h3>Novedad 2</h3>
-                                <p>Descripción breve de la novedad 2.</p>
-                                <a class="btn-leer-mas" href="actividad-1.html">Leer más</a>
+                                <h3>En julio de 2024, Marita Perceval  (Presidenta de Feministas sin Fronteras) participó de la III Conferencia Ministerial sobre Políticas Exteriores Feministas: Soluciones para un mejor mañana, en México</h3>
+                                <!-- <p>Descripción breve de la novedad 2.</p> -->
+                                <a class="btn-leer-mas" href="secciones\novedades\actividad-2.html">Leer más</a>
                             </div>
                         </div>
                         <div class="novedad">
-                            <img src="imagen5.jpg" alt="Novedad 3" class="novedad-imagen">
+                            <img src="./img/Fem SIN FRON 01 Blanco.svg" alt="Novedad 3" class="novedad-imagen">
                             <div class="novedad-texto">
-                                <h3>Novedad 3</h3>
-                                <p>Descripción breve de la novedad 3.</p>
-                                <a class="btn-leer-mas" href="actividad-1.html">Leer más</a>
+                                <h3>Designación Dirección Ejecutiva</h3>
+                                <p>El martes 5 de noviembre, la Comisión Directiva de Feministas sin Fronteras se reunió por primera vez desde su conformación. La orden del día incluyó un cambio en la composición de sus integrantes y la designación de la Dirección Ejecutiva.</p>
+                                <a class="btn-leer-mas" href="secciones\novedades\actividad-3.html">Leer más</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
+                <!-- <div class="carousel-item inicio-item">
                     <div class="novedades-container">
                         <div class="novedad">
                             <img src="imagen3.jpg" alt="Novedad 4" class="novedad-imagen">
@@ -249,7 +257,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <a class="carousel-control-prev" href="#novedadesCarousel" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
