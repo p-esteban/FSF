@@ -1150,7 +1150,7 @@ object-fit: cover;
 
 
 /* Responsive Styles */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
 
     .bio-section {
 
@@ -1178,4 +1178,4 @@ object-fit: cover;
     .bio-image {
         margin: auto;
     }
-}
+} */
