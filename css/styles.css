@@ -1,6 +1,6 @@
 /* General styles */
 body {
-    align-items: center;
+    /* align-items: center; */
     margin: 0;
     padding: 0;
     color: #333;
@@ -123,7 +123,7 @@ nav {
     /* Quita el subrayado */
     font-weight: bold;
     /* Negrita */
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 
 
@@ -192,7 +192,12 @@ ul li:hover .dropdown-content {
     /* Espaciado alrededor del contenido */
 
 }
-
+.hero img {
+    width: 100%; /* La imagen ocupará el 100% del ancho del contenedor */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+    max-width: 100%; /* Evita que la imagen sea más grande que el contenedor */
+    object-fit: contain; /* Asegura que el contenido se ajuste sin recortarse */
+}
 /* .hero-content h1 {
     font-family: 'Poppins', sans-serif; 
     font-size: 48px; 
@@ -414,6 +419,7 @@ ul li:hover .dropdown-content {
     border-radius: 5px;
     font-size: 24px;
     width: calc(100% - 60px);
+    text-align: justify;
 }
 
 .btn-leer-mas {
@@ -475,42 +481,68 @@ ul li:hover .dropdown-content {
 .seccion-interna-body {
     /* background: url(../img/Friso.png); */
     background-color: #4B4696;
-
-
+    display: flex;
+    flex-direction: column;
+         align-items: center;
 }
 
+.btn-actividades{
 
+    text-align: right;
+}
+
+.btn-bio{
+
+    
+        display: inline-block;
+        margin-top: auto;
+        padding: 15px 25px;
+        background-color: white;
+        color: #4B4696;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 20px;
+        border-color: transparent;
+        text-align: right;
+   
+}
 
 .seccion-interna h1 {
     color: #ffffff;
     font-size: 5rem;
 
     z-index: 2;
-    text-align: center;
+   
 }
 
-
-.image-text-section {
-    display: flex;
-    /* Alineación horizontal de imagen y texto */
+.seccion{
+    text-align: center;
     margin: 50px 50px;
     /* Margen para separar del borde */
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 1);
     /* Fondo blanco semi-transparente */
     border-radius: 10px;
     /* Bordes redondeados */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 75%;
+}
+.image-text-section {
+    display: flex;
+    /* Alineación horizontal de imagen y texto */
+    
     /* Sombra suave */
     justify-content: center;
     /* Centra horizontalmente */
-    align-items: center;
 
+   
+  
     /* flex-direction: column; */
 }
 
+
 .image-container {
-    flex: 1;
+   display: flex;
     /* La imagen ocupa un espacio proporcional */
     padding-right: 20px;
     /* Espacio a la derecha de la imagen */
@@ -518,27 +550,33 @@ ul li:hover .dropdown-content {
     justify-content: center;
     /* Alinea horizontalmente */
     align-items: center;
+    
 }
 
 .section-image {
-    max-width: 100%;
+  
     /* Asegura que la imagen no exceda el ancho del contenedor */
     height: auto;
     /* Mantiene la proporción */
     border-radius: 10px;
     /* Bordes redondeados */
+    max-width: 400px;
 }
 
-
+.image-text-section svg{
+    max-width: 400px;
+}
 
 .text-container {
-    flex: 2;
+   
     /* El texto ocupa un espacio proporcional */
     display: flex;
     flex-direction: column;
     /* Alineación vertical del texto */
     margin-top: 0;
     margin-right: 20px;
+    text-align: justify;
+    
 
 }
 
@@ -654,8 +692,10 @@ footer {
     background-color: #2F2F2F;
     /* Color oscuro */
     color: white;
-    padding: 20px;
+
     text-align: center;
+    display: flex;
+    width: 100%;
 }
 
 .social-media-links i {
@@ -756,11 +796,12 @@ footer a:hover {
         display: flex;
         flex-direction: column;
         /* Se alinea verticalmente en pantallas pequeñas */
-        margin: 20px;
+    
         padding: 10px;
         background-color: rgba(255, 255, 255, 0.9);
         border-radius: 10px;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        object-fit: contain;
+
     }
 
     /* Contenedor de la imagen */
@@ -1086,10 +1127,12 @@ footer a:hover {
 
 }
 
+
+
 .bio-section {
     display: flex;
     flex-direction: column;
-    /* max-width: 60%; */
+    max-width: 75%;
     justify-content: center;
     /* Se alinea verticalmente en pantallas pequeñas */
     margin: 20px;
