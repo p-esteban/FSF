@@ -978,22 +978,15 @@ footer a:hover {
     h2,
     h3 {
         width: 100%;
-        /* Asegura que ocupe el 100% en pantallas muy pequeñas */
-        text-align: center;
-        /* Opcional: Centrar el texto */
-        /* padding: 0 15px;  */
-        font-size: 2.5rem;
-        /* Reducir el tamaño de fuente para pantallas pequeñas */
+        text-align: left;
+        font-size: 1.5rem;
     }
 
     h3 {
         width: 100%;
-        /* Asegura que ocupe el 100% en pantallas muy pequeñas */
-        text-align: center;
-        /* Opcional: Centrar el texto */
-        /* padding: 0 15px;  */
-        font-size: 2rem;
-        /* Reducir el tamaño de fuente para pantallas pequeñas */
+
+        text-align: left;
+        font-size: 1rem;
     }
 
     .seccion-interna h1 {
@@ -1089,63 +1082,6 @@ footer a:hover {
 
 /*cv test*/
 
-
-
-/* Estilos responsive */
-@media (max-width: 500px) {
-
-    .section-cv {
-        display: flex;
-        flex-direction: column;
-
-        margin: 20px;
-        padding: 10px;
-
-    }
-
-    .mosaico-cv {
-        grid-template-columns: 1fr;
-    }
-
-    .cv-integrante {
-        width: 100%;
-    }
-
-    .foto-circular {
-        max-width: 100%;
-        margin: auto;
-    }
-}
-
-.seccion-interna-bio {
-    /* background: url(../img/Friso.png); */
-    background-color: #4B4696;
-    display: grid;
-    place-items: center;
-    color: #D1CFE1;
-
-
-}
-
-
-
-.bio-section {
-    display: flex;
-    flex-direction: column;
-    max-width: 75%;
-    justify-content: center;
-    /* Se alinea verticalmente en pantallas pequeñas */
-    margin: 20px;
-    padding: 10px;
-    /* background-color: rgba(255, 255, 255, 0.9); */
-    /* border-radius: 10px; */
-    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
-
-
-}
-
-
-
 .bio-content {
     display: flex;
     width: 100%;
@@ -1184,6 +1120,73 @@ object-fit: cover;
     margin-right: 7%;
  background-color: white;
 }
+
+
+
+/* Estilos responsive */
+@media (max-width: 500px) {
+
+    .section-cv {
+        display: flex;
+        flex-direction: column;
+
+        margin: 20px;
+        padding: 10px;
+
+    }
+
+    .mosaico-cv {
+        grid-template-columns: 1fr;
+    }
+
+    .cv-integrante {
+        width: 100%;
+    }
+
+    .foto-circular {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .bio-image {
+        width: auto;
+        height: auto;
+        border-radius: 50%;
+    object-fit: cover;
+        margin: 5%;
+        margin-right: 7%;
+     background-color: white;
+    }
+}
+
+.seccion-interna-bio {
+    /* background: url(../img/Friso.png); */
+    background-color: #4B4696;
+    display: grid;
+    place-items: center;
+    color: #D1CFE1;
+
+
+}
+
+
+
+.bio-section {
+    display: flex;
+    flex-direction: column;
+    max-width: 75%;
+    justify-content: center;
+    /* Se alinea verticalmente en pantallas pequeñas */
+    margin: 20px;
+    padding: 10px;
+    /* background-color: rgba(255, 255, 255, 0.9); */
+    /* border-radius: 10px; */
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+
+
+}
+
+
 
 
 
