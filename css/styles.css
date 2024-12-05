@@ -27,7 +27,7 @@ h2 {
 p,
 li {
     font-size: larger;
-    /* margin-right: 20px; */
+
 }
 
 .container {
@@ -36,110 +36,62 @@ li {
     padding: 0 20px;
 }
 
-/* Botón CTA */
-/* .cta-button {
-    display: inline-block;
-    padding: 12px 80px;
-    font-size: 18px;
-    color: #fff;
-    background-color: #6B679E;
-    border: none;
-    border-radius: 5px;
-    text-align: center;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-}
 
-.cta-button:hover {
-    background-color: #2F2F2F;
-} */
 
 .cta-button {
     background-color: #4B4696;
-    /* Color del botón */
     color: #ffffff;
-    /* Color del texto del botón */
     padding: 10px 20px;
-    /* Espaciado interno */
     text-decoration: none;
-    /* Sin subrayado */
     border-radius: 5px;
-    /* Bordes redondeados */
     font-weight: bold;
-    /* Texto en negrita */
 }
 
 .cta-button:hover {
     background-color: #6B679E;
-    /* Cambia el color al pasar el ratón */
+
 }
 
 /* Header */
 header {
-    /* background-color: #F7F3E2;*/
-    /* champagne claro */
     color: #D1CFE1;
-    /*(gris malva)*/
     padding: 10px 0;
     position: absolute;
-    /* Cambia de fixed a relative */
     width: 100%;
     z-index: 1000;
 }
 
-/* .logo svg {
-    width: 100%; 
-    height: auto;
-} */
 
 nav {
     display: flex;
-    /* Usa flexbox */
     justify-content: space-between;
-    /* Espacio entre logo y botón */
     align-items: center;
-    /* Alineación vertical */
     padding: 20px 40px;
-    /* Espaciado horizontal */
     background-color: transparent;
-    /* Color de fondo */
-
 }
 
 
 .nav-menu {
     list-style: none;
-    /* Quita los estilos de lista */
     display: flex;
-    /* Usa flexbox para el menú */
     gap: 20px;
-    /* Espaciado entre los elementos */
 }
 
 .nav-menu li a {
     color: #D1CFE1;
-    /* Color de texto */
     text-decoration: none;
-    /* Quita el subrayado */
     font-weight: bold;
-    /* Negrita */
     font-size: 1.5rem;
 }
 
 
 .menu-toggle {
     display: none;
-    /* Oculto por defecto */
     background: none;
-    /* Sin fondo */
     border: none;
-    /* Sin borde */
     font-size: 30px;
-    /* Tamaño del ícono */
     color: #2B3A67;
-    /* Color del ícono */
     cursor: pointer;
-    /* Cambia el cursor al pasar sobre el botón */
 }
 
 /* Estilos del menú desplegable */
@@ -169,80 +121,32 @@ ul li:hover .dropdown-content {
 
 /*hero*/
 .hero {
-    /* background-image: url('../img/logo_violeta.svg'); */
-    /* Cambia esto por la ruta de tu imagen */
-    /* background-size: cover; */
-    /* Asegura que la imagen cubra toda la sección */
     background-position: center;
     background-color: #4B4696;
-    /* Centra la imagen */
     height: 100vh;
-    /* Altura de la sección: 100% del viewport */
     display: flex;
-    /* Usa flexbox para centrar el contenido */
     justify-content: center;
-    /* Alineación horizontal */
     align-items: center;
-    /* Alineación vertical */
     color: #ffffff;
-    /* Color del texto */
     text-align: center;
-    /* Centra el texto */
-
-    /* Espaciado alrededor del contenido */
-
 }
+
 .hero img {
-    width: 100%; /* La imagen ocupará el 100% del ancho del contenedor */
-    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
-    max-width: 100%; /* Evita que la imagen sea más grande que el contenedor */
-    object-fit: contain; /* Asegura que el contenido se ajuste sin recortarse */
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
 }
-/* .hero-content h1 {
-    font-family: 'Poppins', sans-serif; 
-    font-size: 48px; 
-    margin-bottom: 10px; 
-} */
+
+
 
 .hero-content p {
     font-family: 'Nunito', sans-serif;
-    /* Tipografía para el texto */
     font-size: 24px;
-    /* Tamaño del subtítulo */
     margin-bottom: 20px;
-    /* Espaciado inferior */
+
 }
 
-/* 
-.cta-button {
-    background-color: #4B4696; 
-    color: #ffffff; 
-    padding: 10px 20px;
-    text-decoration: none; 
-    border-radius: 5px; 
-    font-weight: bold; 
-}
-
-.cta-button:hover {
-    background-color: #6B679E; 
-}
- */
-
-/* Hero Section Que-hacemos */
-/* .hero {
-    text-align: center;
-    background-color:  #F7F3E2; /* Color de fondo para la sección de héroe */
-/* padding: 50px 0; /* Espaciado para destacar el título */
-/*}
- */
-
-/* .prev {
-    left: 10px; 
-}
-
-.next {
-    right: 10px; 
-} */
 
 /* Introduction Section */
 .introduction {
@@ -250,9 +154,7 @@ ul li:hover .dropdown-content {
     justify-content: space-between;
     align-items: center;
     padding: 60px 0;
-    /* Más espacio */
     background-color: #F7F3E2;
-    /* Fondo gris claro */
 }
 
 .intro-image {
@@ -261,16 +163,12 @@ ul li:hover .dropdown-content {
 
 .intro-image img {
     width: 100%;
-
     border-radius: 10px;
-
 }
 
 .intro-text {
     width: 100%;
-    /* Ajustar espacio */
     padding-left: 20px;
-    /* Espacio entre imagen y texto */
     text-align: justify;
 }
 
@@ -283,69 +181,14 @@ ul li:hover .dropdown-content {
     font-size: 1.5em;
 }
 
-/* Three Column Section (ahora filas) */
-/* .three-column {
-    padding: 60px 0;
-    background-color:  #F7F3E2; 
-}
-
-.row {
-    display: flex;
-    align-items: flex-start; 
-    margin-bottom: 40px; 
-    flex-wrap: nowrap;
-}
-
-.img-container {
-    width: 40%; 
-    overflow: hidden; 
-    border-radius: 10px; 
-}
-
-.row img {
-    width: 100%; 
-    transition: transform 0.3s ease; 
-    
-    height: 300px; 
-    object-fit: cover; 
-
-}
-
-.row img:hover {
-    transform: scale(1.1); 
-} */
-
-/* .content {
-    width: 60%; 
-    margin-left: 100px; 
-}
-
-.content h3 {
-    margin: 0; 
-    font-size: 40px; 
-    line-height: 1.2; 
-}
-
-.content p {
-    margin-top: 10px; 
-    font-size: 20px;
-} */
-
 
 /* Call to Action */
 .call-to-action {
-
-
-
     background-color: #6B679E;
-    /*rgba(230, 230, 230, 0.5);*/
     text-align: center;
     padding: 100px 20px;
     color: white;
-    /*  padding: 100px 20px;
-    text-align: center;
-    background-color: #004080; 
-    color: white; */
+
 }
 
 .call-to-action h2 {
@@ -360,13 +203,11 @@ ul li:hover .dropdown-content {
 
 .call-to-action .cta-button {
     background-color: #e5d2a0;
-    /* Champagne */
     font-size: 2em;
 }
 
 .call-to-action .cta-button:hover {
     background-color: #2F2F2F;
-    /* Color azul más oscuro al pasar el ratón */
     text-decoration: none;
     color: white;
 }
@@ -390,9 +231,7 @@ ul li:hover .dropdown-content {
     position: relative;
     overflow: hidden;
     width: calc(30%);
-    /* Ocupar un 30% del contenedor en pantallas grandes */
     min-width: 300px;
-    /* Asegurar un tamaño mínimo en pantallas más pequeñas */
     border-radius: 15px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
@@ -400,7 +239,6 @@ ul li:hover .dropdown-content {
 .novedad img {
     width: 100%;
     height: 500px;
-    /* Ajustable según necesidades */
     object-fit: cover;
     border-radius: 15px 15px 0 0;
 }
@@ -479,105 +317,77 @@ ul li:hover .dropdown-content {
 /*que hacemos*/
 
 .seccion-interna-body {
-    /* background: url(../img/Friso.png); */
     background-color: #4B4696;
     display: flex;
     flex-direction: column;
-         align-items: center;
+    align-items: center;
 }
 
-.btn-actividades{
-
+.btn-actividades {
     text-align: right;
 }
 
-.btn-bio{
+.btn-bio {
+    display: inline-block;
+    margin-top: auto;
+    padding: 15px 25px;
+    background-color: white;
+    color: #4B4696;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    border-color: transparent;
+    text-align: right;
 
-    
-        display: inline-block;
-        margin-top: auto;
-        padding: 15px 25px;
-        background-color: white;
-        color: #4B4696;
-        text-decoration: none;
-        border-radius: 5px;
-        font-size: 20px;
-        border-color: transparent;
-        text-align: right;
-   
 }
 
 .seccion-interna h1 {
     color: #ffffff;
     font-size: 5rem;
-
     z-index: 2;
-   
+
 }
 
-.seccion{
+.seccion {
     text-align: center;
     margin: 50px 50px;
-    /* Margen para separar del borde */
     padding: 10px;
     background-color: rgba(255, 255, 255, 1);
-    /* Fondo blanco semi-transparente */
     border-radius: 10px;
-    /* Bordes redondeados */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     width: 75%;
 }
+
 .image-text-section {
     display: flex;
-    /* Alineación horizontal de imagen y texto */
-    
-    /* Sombra suave */
     justify-content: center;
-    /* Centra horizontalmente */
-
-   
-  
-    /* flex-direction: column; */
 }
 
 
 .image-container {
-   display: flex;
-    /* La imagen ocupa un espacio proporcional */
+    display: flex;
     padding-right: 20px;
-    /* Espacio a la derecha de la imagen */
     height: auto;
     justify-content: center;
-    /* Alinea horizontalmente */
     align-items: center;
-    
 }
 
 .section-image {
-  
-    /* Asegura que la imagen no exceda el ancho del contenedor */
     height: auto;
-    /* Mantiene la proporción */
     border-radius: 10px;
-    /* Bordes redondeados */
     max-width: 400px;
 }
 
-.image-text-section svg{
+.image-text-section svg {
     max-width: 400px;
 }
 
 .text-container {
-   
-    /* El texto ocupa un espacio proporcional */
     display: flex;
     flex-direction: column;
-    /* Alineación vertical del texto */
     margin-top: 0;
     margin-right: 20px;
     text-align: justify;
-    
-
 }
 
 
@@ -587,54 +397,37 @@ ul li:hover .dropdown-content {
 
 .actividad-detalle-contenedor {
     margin: 100px 200px;
-    /* Margen para separar del borde */
     position: relative;
-    /* Permite que la imagen se posicione correctamente */
     width: auto;
-    /* Ajustar el ancho automáticamente */
     border: 1px solid #ccc;
-    /* Borde para visualizar el contenedor */
     background-color: #f0f0f0;
-    /* Color de fondo */
     padding: 20px;
-    /* Espacio interno */
     display: flex;
-    /* Habilitar Flexbox */
     flex-direction: column;
-    /* align-items: flex-start;  Alinea los elementos en la parte superior */
-    /* Cambiar la dirección de los elementos a columna */
+
 }
 
 .actividad-detalle-contenedor-izquierdo {
     display: flex;
     text-align: left;
-    /* Habilitar Flexbox en este contenedor */
     align-items: flex-start;
-    /* Alinear la imagen y el texto en la parte superior */
 }
 
 .actividad-detalle-imagen {
     max-width: 50%;
-    /* Mantiene la imagen dentro del contenedor */
     height: auto;
-    /* Mantiene la relación de aspecto */
     margin: 0px 20px 20px;
-    /* Espacio entre la imagen y el texto */
     float: left;
 }
 
 .actividad-detalle-texto {
     text-align: left;
-    /* Permite que el texto ocupe el espacio restante */
 }
 
 .actividad-detalle-carousel {
     margin-top: 20px;
-    /* Espacio entre el texto y el div inferior */
     padding: 10px;
-    /* Espacio interno */
     background-color: #e0e0e0;
-    /* Color de fondo del div inferior */
 }
 
 /* .carousel-inner {
@@ -646,24 +439,15 @@ ul li:hover .dropdown-content {
 /* *********/
 
 .carousel-item.inicio-item {
-    height: auto; 
-    
+    height: auto;
+
 }
 
 /* Ajuste de las imágenes del carrusel */
 .carousel-item.inicio-item img {
-
-
     object-fit: cover;
     width: 100%;
-
-    object-fit: cover;
     border-radius: 15px 15px 0 0;
-
-    width: 100%;
-
-
-    object-fit: cover;
     border-radius: 15px 15px 0
 }
 
@@ -673,26 +457,24 @@ ul li:hover .dropdown-content {
 
 
 .carousel-item {
-    height: 700px; 
+    height: 700px;
 }
 
 .carousel-item img {
-    max-width: 100%; 
-    max-height: 100%; 
-    width: auto; 
-    height: auto; 
-    object-fit: contain; 
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
     justify-content: center;
-} 
+}
 
 
 
 /* Footer */
 footer {
     background-color: #2F2F2F;
-    /* Color oscuro */
     color: white;
-
     text-align: center;
     display: flex;
     width: 100%;
@@ -706,11 +488,6 @@ footer .social-icons {
     color: white;
 }
 
-/* footer .social-icons a {
-    margin: 0 10px;
-    display: inline-block;
-}
-*/
 footer .social-icons {
     width: 24px;
     height: 24px;
@@ -726,274 +503,80 @@ footer a:hover {
     text-decoration: none;
 }
 
-@media (max-width: 768px) {
-    .menu-toggle {
-        display: block;
-        /* Muestra el botón en pantallas pequeñas */
-        right: 0;
-    }
-
-    .nav-menu {
-        display: none;
-        /* Oculta el menú en pantallas pequeñas */
-        flex-direction: column;
-        /* Cambia la dirección del menú a columna */
-        width: 100%;
-        /* Ancho completo */
-        position: absolute;
-        /* Para posicionar el menú */
-        top: 60px;
-        /* Coloca el menú debajo de la barra de navegación */
-        left: 0;
-        /* Alinea el menú a la izquierda */
-        background-color: rgba(0, 0, 0, 0.7);
-        /* Color de fondo del menú */
-        z-index: 10;
-        /* Asegúrate de que el menú esté por encima */
-    }
-
-    .nav-menu.show {
-        display: flex;
-        /* Muestra el menú cuando tiene la clase 'show' */
-        background-color: rgba(0, 0, 0, 0.7);
-    }
-
-    .three-column,
-    .news-grid {
-        flex-direction: column;
-    }
-
-    .column,
-    .news-item {
-        width: 100%;
-        /* Ajustar ancho para móvil */
-    }
-
-    .novedad {
-        width: calc(100% - 20px);
-        /* Ocupar todo el ancho en móviles */
-    }
+/* DONACIONES */
 
 
-    .publicacion,
-    .novedad-publicacion-texto,
-    .novedades-container {
-        max-width: 100%;
-        /* Ocupar el 100% en pantallas pequeñas */
-    }
-
-
-    .hero {
-        height: 50vh;
-        width: 100%;
-    }
-
-
-
-    /**/
-
-    .image-text-section {
-        display: flex;
-        flex-direction: column;
-        /* Se alinea verticalmente en pantallas pequeñas */
-    
-        padding: 10px;
-        background-color: rgba(255, 255, 255, 0.9);
-        border-radius: 10px;
-        object-fit: contain;
-
-    }
-
-    /* Contenedor de la imagen */
-    .image-container {
-        flex: 1;
-        padding-right: 0;
-        /* Quita el padding en pantallas pequeñas */
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        /* Centra la imagen en dispositivos pequeños */
-    }
-
-    .section-image {
-        max-width: 100%;
-        height: auto;
-        border-radius: 10px;
-    }
-
-    /* Contenedor de texto */
-    .text-container {
-        flex: 2;
-        display: flex;
-        flex-direction: column;
-        margin-top: 20px;
-        /* Agrega espacio entre imagen y texto en pantallas pequeñas */
-    }
-
-    /* Botón "Leer más" */
-    .btn-leer-mas {
-        text-align: center;
-        display: inline-block;
-        padding: 10px 20px;
-        margin-top: 20px;
-        background-color: #4B4696;
-        color: #ffffff;
-        border-radius: 5px;
-        text-decoration: none;
-    }
-
-    /* Contenedor principal */
-    .actividad-detalle-contenedor {
-        display: flex;
-        flex-direction: column;
-        /* Se alinea verticalmente en pantallas pequeñas */
-        margin: 20px;
-        padding: 10px;
-        background-color: rgba(255, 255, 255, 0.9);
-        border-radius: 10px;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    }
-
-    /* Contenedor izquierdo */
-    .actividad-detalle-contenedor-izquierdo {
-        display: flex;
-        /* flex-direction: column;  Cambia a columna en pantallas pequeñas */
-        /* text-align: left; */
-        /* align-items: flex-start; */
-    }
-
-
-
-    /* Texto */
-    .actividad-detalle-texto {
-        width: 100%;
-        /* Asegura que el texto ocupe todo el ancho disponible */
-        flex-grow: 1;
-        /* Si está en un contenedor flex, hará que el texto crezca para ocupar el espacio */
-        text-align: justify;
-        /* (Opcional) Justifica el texto para que ocupe toda la línea */
-
-        /* text-align: left; */
-    }
-
-    /* Carrusel */
-    .actividad-detalle-carousel {
-        margin-top: 20px;
-        padding: 10px;
-        background-color: #e0e0e0;
-    }
-
-
-
-    .carousel-inner {
-        display: flex;
-        flex-direction: column;
-        transition: none;
-    }
-
-    .carousel-item {
-        width: 100%;
-        /* Asegura que cada elemento ocupe el 100% del ancho */
-        margin-bottom: 20px;
-        /* Añade espacio entre los elementos */
-
-    }
-
-    /* Ocultar los controles del carrusel en pantallas pequeñas */
-    .carousel-control-prev,
-    .carousel-control-next {
-        display: none;
-    }
-
-    /* Opcional: Ajustar el tamaño de las imágenes */
-    .carousel-item img {
-        width: 100%;
-        /* Imágenes ocupando el 100% del contenedor */
-        height: auto;
-        /* Ajuste automático de altura */
-    }
-
-    /* Ajuste de las imágenes del carrusel */
-    /*     .carousel-item img {
-        width: 100%;
-        height: auto;
-
-        object-fit: cover;
-    }
-    .nav-menu {
-        flex-direction: column;
-        display: none;
-    } */
-
-    /*     .dropdown-content {
-        display: none;
-        position: static;
-        background-color: #444;
-    } */
-
-    .nav-menu li:hover .dropdown-content {
-
-        position: static;
-        background-color: transparent;
-        display: block;
-    }
-
-
-
+/* Estilo General */
+.seccion-donaciones {
+    padding: 50px 20px;
+    background-color: transparent;
+    height: 75vh;
 }
 
-@media (max-width: 500px) {
-    .novedad {
-        width: 100%;
-        /* Ocupar el 100% del contenedor en pantallas pequeñas */
-        margin-bottom: 20px;
-    }
-
-    .novedad img {
-        height: 250px;
-        /* Reducir altura de las imágenes para pantallas pequeñas */
-    }
-
-    .novedad-texto,
-    .novedad-publicacion-texto {
-        font-size: 18px;
-        padding: 10px;
-    }
-
-    .btn-leer-mas {
-        padding: 8px 16px;
-        font-size: 16px;
-    }
-
-    h1 {
-        width: 100%;
-        /* Asegura que ocupe el 100% en pantallas muy pequeñas */
-        text-align: center;
-        /* Opcional: Centrar el texto */
-        /* padding: 0 15px;  */
-        font-size: 3.5rem;
-        /* Reducir el tamaño de fuente para pantallas pequeñas */
-    }
-
-    h2,
-    h3 {
-        width: 100%;
-        text-align: left;
-        font-size: 1.5rem;
-    }
-
-    h3 {
-        width: 100%;
-
-        text-align: left;
-        font-size: 1rem;
-    }
-
-    .seccion-interna h1 {
-        font-size: 3.5rem
-    }
-
+.contenedor-donaciones {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
 }
+
+
+
+
+
+
+
+.columna p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #D1CFE1;
+}
+
+/* Formulario */
+.formulario-donaciones .campo-formulario {
+    margin-bottom: 20px;
+}
+
+.formulario-donaciones label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.formulario-donaciones select,
+.formulario-donaciones input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.formulario-donaciones .btn-donar {
+    background-color: #D1CFE1;
+    color: #4B4696;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario-donaciones .btn-donar:hover {
+    background-color: #2F2F2F;
+    text-decoration: none;
+    color: white;
+}
+
+.campo-formulario label {
+    color: #D1CFE1;
+}
+
+/* Campo oculto */
+.campo-formulario.oculto {
+    display: none;
+}
+
+
 
 /*test mosaico cv*/
 
@@ -1007,8 +590,6 @@ footer a:hover {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    justify-content: center;
-    display: flex;
     margin: 20px 50px;
     padding: 10px;
     text-align: center;
@@ -1018,7 +599,6 @@ footer a:hover {
 
 .mosaico-cv {
     text-align: center;
-    /* padding: 10px; */
 }
 
 
@@ -1092,22 +672,17 @@ footer a:hover {
 }
 
 .bio-content-text {
-
     width: 100%;
-
     text-align: justify;
     justify-content: center;
     align-items: center;
-
 }
 
 .bio-content h2 {
-    /* text-align: center; */
     color: #D1CFE1;
 }
 
 .bio-content h3 {
-
     color: #D1CFE1;
 }
 
@@ -1115,10 +690,10 @@ footer a:hover {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-object-fit: cover;
+    object-fit: cover;
     margin: 5%;
     margin-right: 7%;
- background-color: white;
+    background-color: white;
 }
 
 /*  CONTACTO */
@@ -1126,205 +701,345 @@ object-fit: cover;
 .seccion-contacto {
     padding: 50px 20px;
     background-color: transparent;
-  }
-  
-  .contenedor-contacto {
+}
+
+.contenedor-contacto {
     display: flex;
     flex-wrap: wrap;
     max-width: 1200px;
     margin: 0 auto;
-  }
-  
-  .columna {
+}
+
+.columna {
     flex: 1;
     padding: 20px;
     box-sizing: border-box;
-  }
-  
-  .columna.izquierda {
+}
+
+.columna.izquierda {
     border-right: 1px solid #ddd;
-  }
-  
-  .columna h2 {
+}
+
+.columna h2 {
     margin-bottom: 20px;
     color: #D1CFE1;
-  }
-  
-  .informacion-contacto {
+}
+
+.informacion-contacto {
     list-style: none;
     padding: 0;
-  }
-  
-  .informacion-contacto li {
+}
+
+.informacion-contacto li {
     margin-bottom: 15px;
     font-size: 18px;
-  }
-  .informacion-contacto span {
+}
+
+.informacion-contacto span {
     color: #D1CFE1;
-  }
-  
-  .informacion-contacto .icono {
+}
+
+.informacion-contacto .icono {
     margin-right: 10px;
     color: #D1CFE1;
-  }
-  
-  .informacion-contacto a {
+}
+
+.informacion-contacto a {
     text-decoration: none;
     color: #D1CFE1;
-  }
-  
-  .informacion-contacto a:hover {
+}
+
+.informacion-contacto a:hover {
     text-decoration: underline;
-  }
-  
-  /* Formulario */
-  .formulario-contacto .campo-formulario {
+}
+
+/* Formulario */
+.formulario-contacto .campo-formulario {
     margin-bottom: 20px;
-  }
-  
-  .formulario-contacto label {
+}
+
+.formulario-contacto label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
     color: #D1CFE1;
-  }
-  
-  .formulario-contacto input,
-  .formulario-contacto textarea {
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
     box-sizing: border-box;
-  }
-  
-  .btn-enviar {
+}
+
+.btn-enviar {
     background-color: #D1CFE1;
     color: #4B4696;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
-  
-  .btn-enviar:hover {
+}
+
+.btn-enviar:hover {
     background-color: #2F2F2F;
-    /* Color azul más oscuro al pasar el ratón */
     text-decoration: none;
     color: white;
-  }
-  
-  /* Responsive */
-  @media (max-width: 768px) {
-    .contenedor-contacto {
-      flex-direction: column;
-    }
-  
-    .columna.izquierda {
-      border-right: none;
-      border-bottom: 1px solid #ddd;
-    }
-  }
-  
+}
+
+.seccion-interna-bio {
+    background-color: #4B4696;
+    display: grid;
+    place-items: center;
+    color: #D1CFE1;
+}
 
 
-  /* DONACIONES */
 
-
-  /* Estilo General */
-.seccion-donaciones {
-    padding: 50px 20px;
-    background-color:transparent;
-    height: 75vh;
-  }
-  
-  .contenedor-donaciones {
+.bio-section {
     display: flex;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .columna {
-    flex: 1;
-    padding: 20px;
-    box-sizing: border-box;
-  }
-  
-  .columna.izquierda {
-    border-right: 1px solid #ddd;
-  }
-/*   
-  .columna h2 {
-    margin-bottom: 20px;
-    color: #2c3e50;
-  } */
-  
-  .columna p {
-    margin-bottom: 15px;
-    line-height: 1.6;
-    color: #D1CFE1;
-  }
-  
-  /* Formulario */
-  .formulario-donaciones .campo-formulario {
-    margin-bottom: 20px;
-  }
-  
-  .formulario-donaciones label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-  }
-  
-  .formulario-donaciones select,
-  .formulario-donaciones input {
-    width: 100%;
+    flex-direction: column;
+    max-width: 75%;
+    justify-content: center;
+    margin: 20px;
     padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-sizing: border-box;
-  }
-  
-  .formulario-donaciones .btn-donar {
-    background-color: #D1CFE1;
-    color: #4B4696;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .formulario-donaciones .btn-donar:hover {
-    background-color: #2F2F2F;
-    /* Color azul más oscuro al pasar el ratón */
-    text-decoration: none;
-    color: white;
-  }
-  .campo-formulario label {
-    color: #D1CFE1;
-  }
+}
 
-  /* Campo oculto */
-  .campo-formulario.oculto {
-    display: none;
-  }
-  
-  /* Responsive */
-  @media (max-width: 768px) {
-    .contenedor-donaciones {
-      flex-direction: column;
+
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+
+        right: 0;
     }
-  
+
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 10;
+    }
+
+    .nav-menu.show {
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .three-column,
+    .news-grid {
+        flex-direction: column;
+    }
+
+    .column,
+    .news-item {
+        width: 100%;
+
+    }
+
+    .novedad {
+        width: calc(100% - 20px);
+
+    }
+
+
+    .publicacion,
+    .novedad-publicacion-texto,
+    .novedades-container {
+        max-width: 100%;
+
+    }
+
+
+    .hero {
+        height: 50vh;
+        width: 100%;
+    }
+
+
+
+
+    .image-text-section {
+        display: flex;
+        flex-direction: column;
+
+
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 10px;
+        object-fit: contain;
+
+    }
+
+    /* Contenedor de la imagen */
+    .image-container {
+        flex: 1;
+        padding-right: 0;
+
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .section-image {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    /* Contenedor de texto */
+    .text-container {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+
+    }
+
+    /* Botón "Leer más" */
+    .btn-leer-mas {
+        text-align: center;
+        display: inline-block;
+        padding: 10px 20px;
+        margin-top: 20px;
+        background-color: #4B4696;
+        color: #ffffff;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
+    /* Contenedor principal */
+    .actividad-detalle-contenedor {
+        display: flex;
+        flex-direction: column;
+
+        margin: 20px;
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Contenedor izquierdo */
+    .actividad-detalle-contenedor-izquierdo {
+        display: flex;
+
+    }
+
+
+
+    /* Texto */
+    .actividad-detalle-texto {
+        width: 100%;
+        flex-grow: 1;
+        text-align: justify;
+    }
+
+    /* Carrusel */
+    .actividad-detalle-carousel {
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #e0e0e0;
+    }
+
+    .carousel-inner {
+        display: flex;
+        flex-direction: column;
+        transition: none;
+    }
+
+    .carousel-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Ocultar los controles del carrusel en pantallas pequeñas */
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
+
+    /* Opcional: Ajustar el tamaño de las imágenes */
+    .carousel-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .nav-menu li:hover .dropdown-content {
+
+        position: static;
+        background-color: transparent;
+        display: block;
+    }
+
+    .contenedor-contacto {
+        flex-direction: column;
+    }
+
     .columna.izquierda {
-      border-right: none;
-      border-bottom: 1px solid #ddd;
+        border-right: none;
+        border-bottom: 1px solid #ddd;
     }
-  }
-  
 
-/* Estilos responsive */
+    .contenedor-donaciones {
+        flex-direction: column;
+    }
+
+
+
+}
+
 @media (max-width: 500px) {
+    .novedad {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .novedad img {
+        height: 250px;
+    }
+
+    .novedad-texto,
+    .novedad-publicacion-texto {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .btn-leer-mas {
+        padding: 8px 16px;
+        font-size: 16px;
+    }
+
+    h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 3.5rem;
+    }
+
+    h2,
+    h3 {
+        width: 100%;
+        text-align: left;
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        width: 100%;
+
+        text-align: left;
+        font-size: 1rem;
+    }
+
+    .seccion-interna h1 {
+        font-size: 3.5rem
+    }
 
     .section-cv {
         display: flex;
@@ -1352,76 +1067,10 @@ object-fit: cover;
         width: auto;
         height: auto;
         border-radius: 50%;
-    object-fit: cover;
+        object-fit: cover;
         margin: 5%;
         margin-right: 7%;
-     background-color: white;
+        background-color: white;
     }
-}
-
-.seccion-interna-bio {
-    /* background: url(../img/Friso.png); */
-    background-color: #4B4696;
-    display: grid;
-    place-items: center;
-    color: #D1CFE1;
-
 
 }
-
-
-
-.bio-section {
-    display: flex;
-    flex-direction: column;
-    max-width: 75%;
-    justify-content: center;
-    /* Se alinea verticalmente en pantallas pequeñas */
-    margin: 20px;
-    padding: 10px;
-    /* background-color: rgba(255, 255, 255, 0.9); */
-    /* border-radius: 10px; */
-    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
-
-
-}
-
-
-
-
-
-
-
-
-
-
-/* Responsive Styles */
-/* @media (max-width: 768px) {
-
-    .bio-section {
-
-        max-width: 90%;
-        justify-content: center;
-
-
-    }
-
-    .bio-content {
-        flex-direction: column;
-        align-items: center;
-        margin: auto;
-    }
-
-    .bio-content p {
-        margin: auto;
-    }
-
-    .bio-text {
-        margin-left: 0;
-        text-align: center;
-    }
-
-    .bio-image {
-        margin: auto;
-    }
-} */
