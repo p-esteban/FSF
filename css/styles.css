@@ -1121,7 +1121,207 @@ object-fit: cover;
  background-color: white;
 }
 
+/*  CONTACTO */
+/* Estilo General */
+.seccion-contacto {
+    padding: 50px 20px;
+    background-color: transparent;
+  }
+  
+  .contenedor-contacto {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .columna {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .columna.izquierda {
+    border-right: 1px solid #ddd;
+  }
+  
+  .columna h2 {
+    margin-bottom: 20px;
+    color: #D1CFE1;
+  }
+  
+  .informacion-contacto {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .informacion-contacto li {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  .informacion-contacto span {
+    color: #D1CFE1;
+  }
+  
+  .informacion-contacto .icono {
+    margin-right: 10px;
+    color: #D1CFE1;
+  }
+  
+  .informacion-contacto a {
+    text-decoration: none;
+    color: #D1CFE1;
+  }
+  
+  .informacion-contacto a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Formulario */
+  .formulario-contacto .campo-formulario {
+    margin-bottom: 20px;
+  }
+  
+  .formulario-contacto label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #D1CFE1;
+  }
+  
+  .formulario-contacto input,
+  .formulario-contacto textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .btn-enviar {
+    background-color: #D1CFE1;
+    color: #4B4696;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-enviar:hover {
+    background-color: #2F2F2F;
+    /* Color azul más oscuro al pasar el ratón */
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .contenedor-contacto {
+      flex-direction: column;
+    }
+  
+    .columna.izquierda {
+      border-right: none;
+      border-bottom: 1px solid #ddd;
+    }
+  }
+  
 
+
+  /* DONACIONES */
+
+
+  /* Estilo General */
+.seccion-donaciones {
+    padding: 50px 20px;
+    background-color:transparent;
+    height: 75vh;
+  }
+  
+  .contenedor-donaciones {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .columna {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .columna.izquierda {
+    border-right: 1px solid #ddd;
+  }
+/*   
+  .columna h2 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+  } */
+  
+  .columna p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #D1CFE1;
+  }
+  
+  /* Formulario */
+  .formulario-donaciones .campo-formulario {
+    margin-bottom: 20px;
+  }
+  
+  .formulario-donaciones label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .formulario-donaciones select,
+  .formulario-donaciones input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .formulario-donaciones .btn-donar {
+    background-color: #D1CFE1;
+    color: #4B4696;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .formulario-donaciones .btn-donar:hover {
+    background-color: #2F2F2F;
+    /* Color azul más oscuro al pasar el ratón */
+    text-decoration: none;
+    color: white;
+  }
+  .campo-formulario label {
+    color: #D1CFE1;
+  }
+
+  /* Campo oculto */
+  .campo-formulario.oculto {
+    display: none;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .contenedor-donaciones {
+      flex-direction: column;
+    }
+  
+    .columna.izquierda {
+      border-right: none;
+      border-bottom: 1px solid #ddd;
+    }
+  }
+  
 
 /* Estilos responsive */
 @media (max-width: 500px) {
