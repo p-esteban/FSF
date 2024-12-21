@@ -673,10 +673,11 @@ footer a:hover {
 }
 
 
-.bio-titulo{
+.bio-titulo {
 
     /* padding-top: 100px; */
 }
+
 .bio-content-text {
     width: 100%;
     text-align: justify;
@@ -906,6 +907,7 @@ footer a:hover {
         display: flex;
         flex-direction: column;
         margin-top: 20px;
+        margin-right: 0px
 
     }
 
@@ -947,12 +949,14 @@ footer a:hover {
         flex-grow: 1;
         text-align: justify;
     }
+
     .actividad-detalle-imagen {
         /* display: block;  */
         max-width: none;
         float: none;
 
-        margin: 0px 10px 0px 0px; /* Centra horizontalmente */
+        margin: 0px 10px 0px 0px;
+        /* Centra horizontalmente */
     }
 
     /* Carrusel */
@@ -1036,7 +1040,8 @@ footer a:hover {
         padding-top: 0px;
         text-align: center;
     }
-    .bio-titulo h2{
+
+    .bio-titulo h2 {
 
         padding-top: 0px;
         text-align: center;
@@ -1052,14 +1057,14 @@ footer a:hover {
     h3 {
         width: 100%;
         text-align: left;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     h3 {
         width: 100%;
 
         text-align: center;
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     .seccion-interna h1 {
@@ -1089,18 +1094,28 @@ footer a:hover {
     }
 
     .bio-image {
-        width: auto;
-        height: auto;
+        width: 100px;
+        height: 100px;
         border-radius: 50%;
         object-fit: cover;
         margin: 5%;
         margin-right: 7%;
         background-color: white;
     }
+    .bio-image {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin: 5%;
+        margin-right: 7%;
+        background-color: white;
+    }
+
     .bio-content {
-display: inline;
+        display: inline;
         text-align: center;
 
     }
-    
+
 }
